@@ -1,0 +1,25 @@
+
+<form (ngSubmit)="onSubmit()" #signupForm="ngForm">
+    <h2 style="text-align:center;color: rgb(1, 17, 30);">Welcome to Gallary Vault</h2>
+  <h2 style="text-align:center;">Signup Form</h2>
+  
+  <label for="username">Username:</label>
+  <input
+    type="text"
+    id="username"
+    name="username"
+    required
+    [(ngModel)]="formData.username"
+  />
+
+  <label for="email">Email:</label>
+  <input
+    type="email"
+    id="email"
+    name="email"
+    required
+    [(ngModel)]="formData.email"
+  />
+
+  <button type="submit">Submit</button>
+</form>
