@@ -13,7 +13,6 @@ body {
   align-items: center;
 }
 
-/* Form container with cute card-glass style */
 form {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(10px);
